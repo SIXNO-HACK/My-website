@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>czv-two2</title>
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.css" href="style.scss">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mali">
+    
+</head>
+<body>
+<!-------
+    <!-- โหลด Facebook SDK สำหรับ JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v8.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/th_TH/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!--  แชท Plugin code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="102682221245320"
+    theme_color="#0084ff"
+    logged_in_greeting="คุณมีอะไรสงสัยรึปล่าว"
+    logged_out_greeting="คุณมีอะไรสงสัยรึปล่าว">
+    </div> ----><!--------ให้เปลี่ยนด้วยน่ะครับ----------->
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+            <!-------------หน้าLOGO---------->
+                <div class="logo">
+                    <li><a id="type">CZV-TWO2</a></li>
+                </div>
+              <!-------------หน้าเมนู---------->
+                <ul class="menu">
+                    <li><a href="/">หน้าหลัก</a></li>
+                    <li><a href="#About">ว่าง</a></li>
+                    <li><a href="https://www.facebook.com/xyuioert.20/">กลุ่ม</a></li>
+                    <li><a href="#About">เกี่ยวกับ</a></li>
+                </ul>
+            </nav>
+            <!-------------ทำตัวหนังสือเหมือนกำลังพิม---------->
+            <div class="header-wrapper">
+                <div class="header-info">
+                    <h1><span id="typ">Sakkarin</span></h1>
+                    <p>กูไม่รู้ว่ากูจะเขียนว่าไรดีวะกูงงไปหมดละแม่งกูรู้สึกว่ากูง่วงอยากนอนชิบหายเวลานี่ตี4.01มาทำเว็บเพื่อ!!</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---------------------header1------------------>
+    <!----<head>
+        <div class="header1-info">
+            <h3><span id="typing">กูคือใคร</h3>
+        </head> --->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new Typed('#type', {
+        // Waits 1000ms after typing "First"
+        strings: ['CzV-TwO2'],
+        smartBackspace: true,
+        loop: true,
+        typeSpeed: 500, //เปลี่ยนค่าความเร็วได้
+        backSpeed: 500,
+        fadeOut: true,
+        });
+    </script>
+    <script>
+        var typed = new Typed('#typ', {
+        // Waits 1000ms after typing "First"
+        strings: ['Welcome To Web czv-two2','ไอสัสนี้มันตี4.03แล้วน่ะ','กูง่วง'],
+        smartBackspace: true,
+        loop: true,
+         typeSpeed: 100,  //เปลี่ยนค่าความเร็วได้
+        backSpeed: 100,
+        fadeOut: true,
+        });
+    </script>
+  
+
+</script>
+</body>
+</html>
